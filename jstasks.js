@@ -18,6 +18,7 @@ function printStairs(n){
   for (let i= 0;i<n;i++){
     console.log(str+='#');
 }
+}
 
 //Task 4 A function which returns total sum of a range
 function startRange (start,end){
@@ -35,7 +36,7 @@ function min(a,b,c){
   
 //Task 7 A function which transforms first and last letter to uppercase (use built in string’s method).
 function firstAndLastToUpper(str){
-return str[0].toUpperCase() + str.toLowerCase.slice(1); 
-  str[str.length-1].toUpperCase() + str.toLowerCase.slice(str.length-1);
-  console.log(str);
+return str[0].toUpperCase() + str.slice(1,str.length-1) + str[str.length-1].toUpperCase;
 }
+
+
