@@ -31,7 +31,7 @@ function startRange (start,end){
 
 //Task 5 Write a function which returns the smallest of three numbers.
 function min(a,b,c){
-  return min = (a<=b ? a:b);(b<=c ? b:c);(c<=b ? c:b);
+  return (a<=b ? a:b);(b<=c ? b:c);(c<=b ? c:b);
 }
   
 //Task 7 A function which transforms first and last letter to uppercase (use built in string’s method).
