@@ -36,7 +36,7 @@ function min(a,b,c){
   
 //Task 7 A function which transforms first and last letter to uppercase (use built in string’s method).
 function firstAndLastToUpper(str){
-return str[0].toUpperCase() + str.slice(1,str.length-1) + str[str.length-1].toUpperCase;
+return str[0].toUpperCase() + str.slice(1,str.length-1) + str[str.length-1].toUpperCase();
 }
 
 
