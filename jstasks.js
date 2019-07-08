@@ -1,14 +1,14 @@
 // Task 1 Build a function that does currency converter from USD to UAH (1 USD = 8 UAH).
 function convert (amount){
-  const Rate= 8;
+  const RATE= 8;
   return amount*Rate;
 }
 
 //Task 2 A function which returns reversed string.
 function reverse(str){
-  var splitStr= str.split('');
-  var reverseStr= splitStr.reverse();
-  var jointStr= reverseStr.join("");
+  const splitStr= str.split('');
+  const reverseStr= splitStr.reverse();
+  const jointStr= reverseStr.join('');
   return jointStr;
 }
   
@@ -31,7 +31,7 @@ function startRange (start,end){
 
 //Task 5 Write a function which returns the smallest of three numbers.
 function min(a,b,c){
-  return (a<=b ? a:b);(b<=c ? b:c);(c<=b ? c:b);
+  return (a<=b ? a:b),(b<=c ? b:c),(c<=b ? c:b);
 }
   
 //Task 7 A function which transforms first and last letter to uppercase (use built in string’s method).
