@@ -12,23 +12,14 @@ function sumAll(n){
 }
 
 //Task 3
-function bombTimer (str,time){
-   let timer = setTimeout( () => {
-
-        if(time==0){
-
-            clearTimeout(timer);
-
-            return console.log(str);
-            
-        }
-
-        console.log(time);
-
-        return bombTimer2(str, time-1);
-
-    },1000)
-
+function bombTimer(str,time){
+  if (time===0){
+    return console.log(str);
+  }
+    else {
+      console.log (time);
+      return bombTimer(str,time-1);
+    }
 }
 
 //Task 4
