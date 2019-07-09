@@ -35,6 +35,17 @@ function factorial(n) {
   return n == 0 ? 1 : n * factorial(n - 1);
 }
 
-//Task 6
+//Task 7
+
+function minMax(arr){
+    let obj={
+    min:0,
+    max:0,
+  }
+    
+obj.min = Math.min.apply(null,arr);
+obj.max = Math.max.apply(null,arr);
+  return obj;
+}
 
 
