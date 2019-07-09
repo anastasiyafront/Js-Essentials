@@ -5,8 +5,10 @@ function printTimeout (str,n){
 
 //Task2
 function sumAll(n){
-  if (n==1) return 1;
-  return n+sumAll(n-1);
+  if (n===1) return 1;
+  else {
+    return count = n+sumAll(n-1);
+}
 }
 
 //Task 3
